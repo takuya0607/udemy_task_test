@@ -24,3 +24,5 @@ class TestController extends Controller
       return view('tests.test', compact('values'));
     }
 }
+
+// テスト
