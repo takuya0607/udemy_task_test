@@ -25,7 +25,7 @@ class StoreContactForm extends FormRequest
     {
         return [
             //
-          'your_name' => 'required|string|max:20',
+          'your_name' => 'required|string|max:200',
           'title' => 'required|string|max:50',
           'email' => 'required|email|unique:users|max:255',
           'url' => 'usr|nullable',
